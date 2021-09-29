@@ -8,6 +8,8 @@ The vehicle length, and vehicle ground clearance are statistically likely to pro
 The p-Value for this model, p-Value: 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further indcates that the slope of this linear model is not zero.
 
 This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, his multiple regression model does predict mpg of MechaCar prototypes effectively.
+![deliverable 1](https://user-images.githubusercontent.com/86641997/135331039-a7dd3be0-bc12-4281-91e7-d7170ed3092c.png)
+
 
 
 ## Summary Statistics on Summary Coils
@@ -18,9 +20,13 @@ When looking at the entire population of the production lot, the variance of the
 
 Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
 
+![deliverable 2](https://user-images.githubusercontent.com/86641997/135331215-a4b993f4-20c6-4f1b-b633-ed6d7562927c.png)
+
 ## t-test on Suspension Coils
 The results of the t-test analysis reveals that the p-value for all lots is 0.06028 which is outside the signifigance level of 0.05 resulting in a confidence interval of 93.972%. Based on this prediction, there is not sufficient evidence to reject the null hypothesis. It may be stated that the dataset mean and the population mean are statistically similar. Also, the analysis predicts that the suspension coils dataset is statistically representative of the population mean.
 
+
+![deliverable 3](https://user-images.githubusercontent.com/86641997/135331390-0dd67e01-d2ea-4564-910c-40d63457a0a9.png)
 
 ## Study Design: MechaCar vs Competiiton
 The plan is to design the MechaCar vehicle to perform better than the general marketplace vehicles. To accomplish this goal I believe atttention is best served improving the fuel efficiency of the MechaCar. Data needs to be gathered for all MechaCar manufacturing designs, in addition to the current six variables from this analysis. Additional data could include weather conditions, i.e. wind sheer, rain, heat, etc. Varying distances of short trips and long trips are also needed to determine fuel efficiency, as well as fuel efficiency over time. The dataset must include general marketplace competitor's data for comparison.
